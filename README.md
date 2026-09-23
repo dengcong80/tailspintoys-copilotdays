@@ -64,6 +64,8 @@ npm run test:unit   # Vitest unit tests (transforms + data-access helpers)
 npm run test:e2e    # Playwright E2E tests (builds + previews the static site first)
 ```
 
+The site also provides a **High contrast** control in the header. It uses a native button with an `aria-pressed` state, applies a stronger contrast palette, and persists the preference in browser storage across page reloads.
+
 ## Linting
 
 The frontend uses ESLint to enforce code quality across TypeScript and Astro files. Run it with:
